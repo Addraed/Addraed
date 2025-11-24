@@ -54,9 +54,12 @@ Biopython · FASTA/FASTQ workflows · Alignment tools · Genomic data handling
 
 ## 📊 GitHub Stats & Languages
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=addraed&show_icons=true&include_all_commits=true&hide_rank=false)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=addraed&show_icons=true&include_all_commits=true&count_private=true&hide_rank=false&bg_color=0d1117&title_color=d13138&text_color=e6d3d3&icon_color=ff6767&border_color=5a1a1a&ring_color=00ff99)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=addraed&layout=compact&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=addraed&layout=compact&count_private=true&bg_color=0d1117&title_color=00ff99&text_color=b2f5d6&border_color=1f343d)
+
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./snake-dark.svg" />
