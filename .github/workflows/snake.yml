@@ -2,12 +2,14 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily
+    - cron: "0 0 * * *"   # every day at 00:00 UTC
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write      # allow push with GITHUB_TOKEN
 
     steps:
       - name: Checkout repo
@@ -18,14 +20,8 @@ jobs:
         with:
           github_user_name: addraed
           outputs: |
-            dist/snake.svg?palette=github
-            dist/snake-dark.svg?palette=github-dark&color_snake=#00ff99
-
-      - name: Move SVGs to repo root
-        run: |
-          mv dist/snake.svg snake.svg
-          mv dist/snake-dark.svg snake-dark.svg
-          ls -R .
+            ./snake.svg?palette=github
+            ./snake-dark.svg?palette=github-dark&color_snake=#00ff99
 
       - name: Stage and detect changes
         id: diff
