@@ -3,7 +3,7 @@ name: Generate contribution snake
 on:
   schedule:
     - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:      # allow manual runs from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,17 +13,33 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate snake SVG
+      - name: Generate snake SVGs (light + dark)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: addraed
-          outputs: dist/snake.svg
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Move and commit snake.svg
+      - name: Move SVGs to repo root
         run: |
           mv dist/snake.svg snake.svg
+          mv dist/snake-dark.svg snake-dark.svg
+
+      - name: Check if there are changes
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add snake.svg
-          git commit -m "chore: update contribution snake" || echo "No changes to commit"
+          git add snake.svg snake-dark.svg
+          git commit -m "chore: update contribution snake"
           git push
