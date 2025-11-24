@@ -72,7 +72,7 @@ I like solving problems that combine **science, engineering and creativity** —
 
 ## 📫 Find Me Here!
 
-- 📩 mromar  
+- 📩 [mrosmarin3@gmail.com](mrosmarin3@gmail.com)  
 - 📟[Linkedin](https://www.linkedin.com/in/manuelrmarin/)  
 - 💻Portfolio 
 
