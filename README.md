@@ -58,7 +58,12 @@ Biopython · FASTA/FASTQ workflows · Alignment tools · Genomic data handling
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=addraed&layout=compact&count_private=true)
 
-![GitHub Contribution Snake](./snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./snake.svg" />
+  <img alt="github contribution snake" src="./snake.svg" />
+</picture>
+
 
 ## 📚 Background
 
