@@ -2,7 +2,7 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,9 @@ jobs:
           github_user_name: addraed
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake-dark.svg
+          palette: github         # light version
+          palette_dark: github-dark  # dark version
 
       - name: Move SVGs to repo root
         run: |
