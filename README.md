@@ -1,4 +1,6 @@
-## 👋 Hi, I’m Manu — Bioinformatics • Data • Dev • Cybersecurity
+## 👋 Hi, I’m Manu !
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&width=1200&lines=Bioinformatics+%7C+Data+%7C+Dev+%7C+Cybersecurity;Automation+,+Investigation+and+Visualization+tools;Always+learning+something+new)
+
 
 Welcome to my GitHub! I work at the intersection of biotechnology, data systems, and software engineering, building tools that bridge scientific workflows with robust, production-ready code.
 
@@ -54,7 +56,9 @@ Biopython · FASTA/FASTQ workflows · Alignment tools · Genomic data handling
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=addraed&show_icons=true&include_all_commits=true&hide_rank=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=addraed&layout=compact&langs_count=8&hide=html,css)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=addraed&layout=compact&count_private=true)
+
+![GitHub Contribution Snake](./snake.svg)
 
 ## 📚 Background
 
@@ -67,8 +71,8 @@ I like solving problems that combine science, engineering, and creativity — wh
 
 ## 📫 How to Reach Me
 
-- **Email:** mromarin  
-- **LinkedIn:** https://www.linkedin.com/in/manuelrmarin/  
+- **** mromarin  
+- **[LinkedIn](https://www.linkedin.com/in/manuelrmarin/)**   
 - **GitHub:** You’re already here 🚀  
 
 ## ⭐ If you like my work…
