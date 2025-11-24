@@ -1,4 +1,4 @@
-##👋 Hi, I’m Manu — Bioinformatics • Data • Dev • Cybersecurity
+## 👋 Hi, I’m Manu — Bioinformatics • Data • Dev • Cybersecurity
 
 Welcome to my GitHub! I work at the intersection of biotechnology, data systems, and software engineering, building tools that bridge scientific workflows with robust, production-ready code.
 
