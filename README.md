@@ -1,6 +1,6 @@
 ## 👋 Hi, I’m Manu !
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&width=1200&lines=Bioinformatics+%7C+Data+%7C+Dev+%7C+Cybersecurity;Automation+,+Investigation+and+Visualization+tools;Always+learning+something+new)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&width=1200&lines=Bioinformatics+%7C+Data+Sciencie+%7C+Dev+%7C+Cybersecurity;Automation+,+Investigation+and+Visualization+tools;Always+learning+something+new)
 
 I work at the intersection of **biotechnology**, **data systems** and **software engineering**, building tools that bridge scientific workflows with robust, production-ready code.  
 I enjoy creating **automation pipelines**, **data workflows**, **interactive apps** and **secure systems**, combining my background in **Bioinformatics**, **Biology** and **IT**.
