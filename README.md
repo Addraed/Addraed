@@ -13,11 +13,12 @@ I enjoy creating **automation pipelines**, **data workflows**, **interactive app
 - 💻 **Software Development** – Python apps (Tkinter, asyncio, FastAPI, CLI), full-stack/back-end scripting, Excel/Access/VBA automation, ETL & APIs.  
 - 🔐 **Cybersecurity & Infrastructure** – secure dev practices, network config & analysis, scripting for automation, auditing and hardening.
 
+
 ---
 
 ## 🧩 Highlighted Projects
 
-- **Audio Meta-Extractor** – Python/Tkinter GUI that extracts and exports audio metadata.  
+- **Cybersecurity Analysis on a LAMP server** – NIST compliant cybersecurity analysis of a compromised machine, from breach identification and containment to security hardening and DLP suggestions.  
 - **VBA Automation Modules** – import mappers, dynamic range parsers and data pipelines for Excel ↔ Access.  
 - **DevOps / Network Exercises** – ACL configs, automation scripts and small network labs.
 
@@ -26,6 +27,8 @@ I enjoy creating **automation pipelines**, **data workflows**, **interactive app
 ---
 
 ## 🛠️ Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=python,r,mysql,linux,ubuntu,kali,java,js,html,css,vscode,npm,react,scikitlearn,docker,firebase,obsidian)](https://skillicons.dev)
 
 **Languages**  
 Python · R · SQL (Oracle/MySQL) · VBA · Bash · Java · JavaScript  
