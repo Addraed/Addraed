@@ -9,16 +9,30 @@ I enjoy creating **automation pipelines**, **data workflows**, **interactive app
 
 ## 🚀 What I Do
 
-- 🧬 **Bioinformatics & Data Science** – pipelines (Python/R/Bash), analysis & visualization, genomics tooling, scientific computing.  
-- 💻 **Software Development** – Python apps (Tkinter, asyncio, FastAPI, CLI), full-stack/back-end scripting, Excel/Access/VBA automation, ETL & APIs.  
-- 🔐 **Cybersecurity & Infrastructure** – secure dev practices, network config & analysis, scripting for automation, auditing and hardening.
+- 🔐 **Cybersecurity & Pentesting** – forensic analysis, vulnerability assessment, server hardening, OWASP methodology, NIST/ISO 27001/ENS compliance.
+- 🧬 **Bioinformatics & Data Science** – ML pipelines (Python/R), genomic data analysis & visualization, unsupervised learning, scientific computing.
+- 💻 **Automation & Development** – Python apps, SQL/VBA automation, ETL pipelines, QA testing in critical production environments.
 
 
 ---
 
 ## 🧩 Highlighted Projects
 
-- **Cybersecurity Analysis on a LAMP server** – NIST compliant cybersecurity analysis of a compromised machine, from breach identification and containment to security hardening and DLP suggestions.  
+### 🔐 [Cybersecurity Analysis on a Compromised LAMP Server](https://github.com/Addraed/cybersecurity-final-project)
+`Kali Linux` `Nmap` `Nikto` `Metasploit` `iptables` `NIST` `CVSS`
+- Forensic analysis on a compromised Linux server: SSH root intrusion identified via logs, journals and command history
+- Detection and remediation of 10 critical vulnerabilities (SSH, FTP, MariaDB, Apache/WordPress)
+- Offensive pentesting with documented CVSS-scored findings
+- Server hardening: iptables, HTTP headers, insecure service removal
+- Full technical documentation: forensic report, pentesting report, BCP/DRP plan and executive presentation
+
+### 🧬 [Melanoma Subtype Classifier — Data Visualization App](https://github.com/Addraed/Melanoma-Data-Visualization-App)
+`Python` `R` `Shiny` `FP-Growth` `mlxtend` `plotly` `chorddiag`
+- Full pipeline on multi-omic data from 331 cancer patients (TCGA-SKCM)
+- Unsupervised ML (FP-Growth): 965 frequent itemsets → 11 clinically relevant association rules
+- Interactive web app deployed on ShinyApps.io for non-technical healthcare professionals
+- Pattern recognition across genomic subtypes: BRAF, RAS and Triple WT
+
 - **VBA Automation Modules** – import mappers, dynamic range parsers and data pipelines for Excel ↔ Access.  
 - **DevOps / Network Exercises** – ACL configs, automation scripts and small network labs.
 
