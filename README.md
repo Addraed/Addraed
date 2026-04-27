@@ -91,7 +91,7 @@ I like solving problems that combine **science, engineering and creativity** —
 
 - 📩 [mrosmarin3@gmail.com](mailto:mrosmarin3@gmail.com)  
 - 📟[Linkedin](https://www.linkedin.com/in/manuelrmarin/)  
-- 💻Portfolio 
+- 💻[Portfolio](https://portfolio-mrmf.vercel.app/) 
 
 
 
